@@ -30,7 +30,7 @@ export default {
       .then(response => response.json())
       .then(json => {
         this.items = json.results;
-        this.items.shift();ç
+        this.items.shift();
       })
   },
   name: 'AlbumTiles',
