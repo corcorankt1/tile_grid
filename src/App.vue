@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <AlbumTiles msg="Welcome to Your Vue App"/>
+    <AlbumTiles msg="A Collection of Queen's Music"/>
   </div>
 </template>
 
@@ -22,7 +21,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000000;
   margin-top: 60px;
 }
 </style>
